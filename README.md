@@ -59,7 +59,7 @@ This part will describe on how you set up your local RTMP server and streaming f
     * I have configured it the way that when I open that application it starts Monaserver.exe!
     * You can also use it without, but I would not recommend! (trust me :))
 
-11. Connect your phone with the GoPro as describe in section 1! At this point you should know how to do it ;)
+11. Connect your phone to the GoPro as describe in section 1! At this point you should know how to do it ;)
 12. Click on Live Stream->Other/RTMP; as before select a network you want to use to send your stream from
 13. THIS IS THE IMPORTANT PART:
     1. Get your public ip, publicPort AND your streamkey that you chose earlier!
