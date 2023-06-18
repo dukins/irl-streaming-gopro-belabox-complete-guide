@@ -81,6 +81,11 @@ Alright, we are have come a looong way now. Almost there to have a perfect set u
 5. Now we will set up the SRTLA Relay Server on your local machine.
    * NOTE: THIS IS DONE ON AN UBUNTU MACHINE! I would recommend setting up a dual boot machine that has Windows and Ubuntu on it. Or get a    
      dedicated PC that runs Ubuntu!
+   * HUGE shoutout to Codexual for his guide to setup an SRT Server at home!
+     * watch this video to set up your SRT Server: https://www.youtube.com/watch?v=YhvRXWzRPm4 (it is lengthy so it would be too much for this
+     guide). Do not forget to setup a service that the SRT server starts when you are starting your PC! It'll get annoying after a while 
+     otherwise.
+   * when done start the SRT server
    * go to https://github.com/Marlow925/srtla and clone the repository:
    * open terminal and type: 
      ```git clone https://github.com/Marlow925/srtla.git```
@@ -88,16 +93,33 @@ Alright, we are have come a looong way now. Almost there to have a perfect set u
      ```cd srtla/```
    * in the folder there are some files, we only care about one here: srtla_rec
    * to start the srtla relay server type in the following:
-     * ```srtla_rec FIRST_PORT YOUR-PUBLIC-IP SECOND-PORT```
-     You can choose your ports whatever you want, just make sure you have enabled them in your router! Also check on your ubuntu machine if 
-     they are enabled with:
-     * ```sudo ufw status```
-     * If your ports are in the list you are good to go. If not, execute the following:
-     * ```sudo ufw allow YOUR-PORT/tcp```
-     * Do the same with "udp" instead of "tcp"
-     * 
-7. Connect it to a powersource, connect the Belabox with an ethernet cable to your router  
+     * ```./srtla_rec FIRST_PORT YOUR-PUBLIC-IP SECOND-PORT```
+       Make sure you are using the same ports that you used in the SRT Server setup, check whether you have them enabled in your router! 
+       Also check on your ubuntu machine if they are enabled with:
+         * ```sudo ufw status```
+         * If your ports are in the list you are good to go. If not, execute the following:
+         * ```sudo ufw allow YOUR-PORT/tcp```
+         * Do the same with "udp" instead of "tcp"
+         * At this point I assume you have OBS installed on your machine. Check the Websocket settings in OBS for the used port. Enable that 
+           port as well!
+   * Now create a scene in OBS, add Mediasource and type in:
+       ```srt://YOUR-PUBLIC-IP:SECOND-PORT```
+   * To make things easier create a shortcut in the bashrc file that will do these steps for you. Or create a service like before that will 
+     start the SRTLA Relay Server.
+     * for the bashrc approach do the following:
+       * ```sudo nano ~/.bashrc```
+       * scroll to the bottom and type in:
+       * ```alias start-srtla='cd /home/$USER/srtla && ./srtla_rec FIRST_PORT YOUR-PUBLIC-IP SECOND_PORT'```
+       * Change the ports and IP to the ones you chose/ have!
+       * press CTRL+O; CTRL+X; back in the terminal type in:
+       * ```source ~/.bashrc``` so the changes take effect
+       * type in ```start-srtla``` Your SRTLA Relay Server should now be starting with a success message!
+7. Now we can go back to our Belabox: Connect it to a powersource, and connect the Belabox with an ethernet cable to your router  
 8. Login to your router to see what local IP your Belabox has (e.g. 192.168.XYZ.XYZ) 
 9. Type it in your browser, a login should appear where you will choose a new password
 10. You will now see a list of buttons (Start, Wifi (if you have a wifi stick connected), Ecoder Settings, etc.)
-11. Go to Encoder settings 
+11. Go to Encoder settings, here you can go with the first approach to just test if the Belabox can send a stream to your OBS or choose the 
+    second option to stream your GoPro feed to OBS
+    * TEST PATTERN STREAM: jetson/h265_test_pattern
+   
+12. Choose jetson/rtmp_localhost_publish_live_50fps (or whatever fps you want to stream at)
