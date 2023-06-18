@@ -138,7 +138,7 @@ Alright, we are have come a looong way now. Almost there to have a perfect set u
 10. Go to Encoder settings, here you can go with the first approach to just test if the Belabox can send a stream to your OBS or choose the 
     second option to stream your GoPro feed to OBS
     * TEST PATTERN STREAM: jetson/h265_test_pattern
-    * GOPRO FEED:  jetson/rtmp_localhost_publish_live_50fps (or whatever fps you want to stream at)
+    * GOPRO FEED (WIRELESS OPTION):  jetson/rtmp_localhost_publish_live_50fps (or whatever fps you want to stream at)
 11. Go to SRTLA Settings
     * SRTLA receiver address: YOUR-PUBLIC-IP
     * SRTLA receiver port: FIRST_PORT
