@@ -82,7 +82,7 @@ Alright, we are have come a looong way now. Almost there to have a perfect set u
 ### List of equipment you need:
 * NVIDIA Jetson Nano 2GB / or 4GB Version: 2GB: https://amzn.to/3NgMiGy | 4GB: https://amzn.to/3Pjt460
 * GoPro (Hero 11 Black): https://amzn.to/45EjmRp
-* 
+* Phone with the GoPro Quik App
 
 ### INSTALLATION AND SETUP STEPS
 1. 
@@ -114,10 +114,8 @@ Alright, we are have come a looong way now. Almost there to have a perfect set u
          * Do the same with "udp" instead of "tcp"
          * At this point I assume you have OBS installed on your machine. Check the Websocket settings in OBS for the used port. Enable that 
            port as well!
-   * Now create a scene in OBS, add Mediasource and type in:
-       ```srt://YOUR-PUBLIC-IP:SECOND-PORT```
-   * To make things easier create a shortcut in the bashrc file that will do these steps for you. Or create a service like before that will 
-     start the SRTLA Relay Server.
+   * To make things easier create a alias/ shortcut in the bashrc file that will do these steps for you. Or create a service like before that 
+     will start the SRTLA Relay Server.
      * for the bashrc approach do the following:
        * ```sudo nano ~/.bashrc```
        * scroll to the bottom and type in:
@@ -126,6 +124,9 @@ Alright, we are have come a looong way now. Almost there to have a perfect set u
        * press CTRL+O; CTRL+X; back in the terminal type in:
        * ```source ~/.bashrc``` so the changes take effect
        * type in ```start-srtla``` Your SRTLA Relay Server should now be starting with a success message!
+   * Now go to OBS create a scene and add Mediasource. Type in:
+       ```srt://YOUR-PUBLIC-IP:SECOND-PORT/live/stream/YOUR_STREAM_KEY```
+       * YOUR_STREAM_KEY is what you chose in the sls.conf (from the SRT SERVER SETUP VIDEO! Go watch it if you haven't!)
 6. Now we can go back to our Belabox: Connect it to a powersource, and connect the Belabox with an ethernet cable to your router  
 7. Login to your router to see what local IP your Belabox has (e.g. 192.168.XYZ.XYZ) 
 8. Type it in your browser, a login should appear where you will choose a new password
@@ -137,5 +138,9 @@ Alright, we are have come a looong way now. Almost there to have a perfect set u
 11. Go to SRTLA Settings
     * SRTLA receiver address: YOUR-PUBLIC-IP
     * SRTLA receiver port: FIRST_PORT
-    * SRT streamid: live/stream/YOUR-STREAM-KEY in the sls.conf (from the SRT SERVER SETUP VIDEO! Go watch it if you haven't!)
-12. 
+    * SRT streamid: live/stream/YOUR_STREAM_KEY 
+12. Go back up and click "Start". If no error message appears e.g. "Failed to connect to the SRT server. Retrying..." or "Failed to connect to the SRTLA server. Retrying..." we are goot to go.
+13. Go to OBS to see your feed being displayed!
+
+YOU DID IT! NOW you can call yourself a professional streamer! :D
+Let your awesome journey without interruptions begin! Good luck out there!
