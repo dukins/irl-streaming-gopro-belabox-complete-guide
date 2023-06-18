@@ -53,7 +53,7 @@ This part will describe on how you set up your local RTMP server and streaming f
 8. In the Monaserver folder, go into the "www/live" folder (if live does not exist, create it), create a folder with your STREAM-KEY (needed later for the address stream with the gopro); STREAM-KEY can be anything you want, e.g. goprostreamabc123
    -> your folder structure should now look like this: Monaserver/www/live/STREAM-KEY
 9. NOW THIS IS IMPORTANT: Login to your router and enable the port you chose before: e.g. 1935! Tons of guides on how it is done on the internet, will depend on what router you use!
-10. ALSO IMPROTANT: Donwload this application called Restart-on-Crash: https://www.majorgeeks.com/files/details/restart_oncrash.html
+10. ALSO IMPROTANT: Download this application called Restart-on-Crash: https://www.majorgeeks.com/files/details/restart_oncrash.html
     * This is a VERY handy tool for your RTMP server to be rebooted in case it crashed (happened to me!)
     * There is a youtube video on how to set it up -> https://www.youtube.com/watch?v=cW9MFgNRvkk
     * I have configured it the way that when I open that application it starts Monaserver.exe!
