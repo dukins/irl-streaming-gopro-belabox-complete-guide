@@ -6,11 +6,14 @@ This is a How-To for the IRL streaming setup with a GoPro(Hero 11 Black) (and th
 
 During the writing of this guide I was using the GoPro Quick app version: 11.18.1(15524)!
 I was also using an android phone (Samsung Galaxy S20+) with Android 13. For some steps you will have to look up on how to do them on Iphone (sorry about that!)
-FOR TROUBLESHOOTING: Join my Discord Server and post your questions in the "tech-stuff" or "troubleshooting-gopro-setup" channels!
-You can also check out my twitch stream and we can have a live talk there! 
-##
-###
-#### -> **twitch.tv/twiqsp**
+
+
+
+## Troubleshooting
+Join my Discord Server and post your questions in the "tech-stuff" or "troubleshooting-gopro-setup" channels!
+### **https://discord.gg/fDD9hyxv**
+You can also check out my twitch stream and we can have a live talk there!
+### **twitch.tv/twiqsp**
 
 ## 1. Streaming from the GoPro to twitch.tv
 0) OPTIONAL: Create a GoPro account (gopro.com). This just helps, so you do not have to click "Continue as guest" every time you open the app. Trust me, it WILL get annoying at some point.
