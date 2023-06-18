@@ -79,13 +79,14 @@ This part will describe on how you set up your local RTMP server and streaming f
 
 ## Streaming with the Belabox
 Alright, we are have come a looong way now. Almost there to have a perfect set up. To have more reliable stream you need something that can handle multiple carriers at the same time, so your bitrate does not drop during your streams even in the remote areas. And here we are going to use what is called "BELABOX". HUGE thanks to rationalIRL to create this project to be more affordable for new streamers! (The liveU costs a ton of money for the box alone without peripherals. You can go with it if you have the money).
-### List of equipment you need:
+
+###<a name="section-5-2"></a> List of equipment you need:
 * NVIDIA Jetson Nano 2GB / or 4GB Version: 2GB: https://amzn.to/3NgMiGy | 4GB: https://amzn.to/3Pjt460
 * GoPro (Hero 11 Black): https://amzn.to/45EjmRp
 * Phone with the GoPro Quik App
 * Mobile router (GL.iNet GL-MT300N-V2): https://amzn.to/42QZY0K
 * Powerbanks: https://amzn.to/3IS0hkG (VARTA) | https://amzn.to/3qTvJsG (ANSMANN) | Powerbank for your phone also
-* 
+
 
 ### INSTALLATION AND SETUP STEPS
 1. 
@@ -148,7 +149,7 @@ Alright, we are have come a looong way now. Almost there to have a perfect set u
     * connect a Wifi stick to the Belabox
     * go to the UI page of the Belabox and click on Wifi: wlan0 -> choose your mobile hotspot
     * deselect eth0 and test the stream again, now all the data should go through your mobile connection
-15. To be ab
+15. To be able to stream outside you need to connect a mobile router (see under [List of equipment you need:](#section-5-2) )
 
-YOU DID IT! NOW you can call yourself a professional streamer! :D
+*YOU DID IT!* NOW you can call yourself a professional streamer! :D
 Let your awesome journey without interruptions begin! Good luck out there!
