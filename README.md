@@ -150,6 +150,11 @@ Alright, we are have come a looong way now. Almost there to have a perfect set u
     * go to the UI page of the Belabox and click on Wifi: wlan0 -> choose your mobile hotspot
     * deselect eth0 and test the stream again, now all the data should go through your mobile connection
 15. To be able to stream outside you need to connect a mobile router (see under [List of equipment you need:](#section-5-2) )
+    * instead of your home router, connect your portable router to it.
+    * To connect to your Belabox and start the stream, check the devices that are connected to your Mobile Hotspot on your phone
+      * Settings->Connections->Mobile Hotspot and Tethering->Mobile Hotspot->Connected devices#
+    * Open the browser on your phone and type in the IP of "belabox". You should be able to connect to it like on your PC.
+    * DONE!
 
-*YOU DID IT!* NOW you can call yourself a professional streamer! :D
-Let your awesome journey without interruptions begin! Good luck out there!
+*YOU DID IT!* **NOW** you can call yourself a professional streamer! :D
+Let your awesome journey without interruptions begin! Good luck out there buddy!
