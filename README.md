@@ -50,4 +50,20 @@ NOTE: This part is done on WINDOWS 11! (Section 3 will show how to get the SRTLA
     This is a VERY handy tool for your RTMP server to be rebooted in case it crashed (happened to me!)
     There is a youtube video on how to set it up -> https://www.youtube.com/watch?v=cW9MFgNRvkk
     I have configured it the way that when I open that application it starts Monaserver.exe!
-11. 
+11. Connect your phone with the GoPro as describe in section 1! At this point you should know how to do it ;)
+12. Click on Live Stream->Other/RTMP; as before select a network you want to use to send your stream from
+13. THIS IS THE IMPORTANT PART:
+    1. Get your public ip, publicPort AND your streamkey that you chose earlier!
+    2. ENTER YOUR RTMP URL: rtmp://YOUR-PUBLIC-IP:publicPort/live/STREAM-KEY (save this link in a notepad file, in case you want to test       
+       different IPs etc.)
+    3. Choose the rest to your likings
+    4. when continue is highlighted, click on it and then on "Go Live"
+    5. Now you should see some activity on the terminal where the Monaserver shows it's information! We are good to go, the GoPro is sending
+       it's feed to your local PC!
+    6. Now open OBS->add scene->as a source choose Mediasource
+    7. Uncheck "local file" and enter the same RTMP URL you typed in the GoPro!
+    8. OPTIONAL: You can set network buffer to 1MB and Latency to 2 seconds, leave the rest as it is.
+    9. Now you should be able to see your GoPro feed on OBS, the rest is only setting up your account where you want to stream to (Tons of 
+       guides out there ;)).
+       
+"I am a professional streamer now!" is what you think. WOAH, hold your horses, buddy, we are not quite there.. YET! :) This approach will also fail from time to time since you can only use 1 (ONE) mobile connection to stream.. BUT HEY there is still section 3 that awaits us! So let's go to that last part so we you can call yourself a professional streamer and have a quality time with your viewers!
