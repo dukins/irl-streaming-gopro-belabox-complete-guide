@@ -12,11 +12,11 @@ I was also using an android phone (Samsung Galaxy S20+) with Android 13. For som
 1) Install GoPro Quik app on your phone. Optional: Login with your account created in step 0) (click on the "person icon" on the top left)
 2) Click on the "GoPro" icon on the bottom bar (there should be four icons: Mural, Media, Studio, GoPro)
 3) Connect your GoPro with your phone
-   a. on your GoPro: swipe down, swipe left, click on Preferences, Wireless Connections, Connect Device, GoPro Quick App
+   i. on your GoPro: swipe down, swipe left, click on Preferences, Wireless Connections, Connect Device, GoPro Quick App
       Follow the steps described.
-   b. After successful connection you should see a layout where you can control your GoPro. On the upper side you should see fields with "Live Stream", "View Media", "Auto Upload". Click on "Live Stream".
-   c) Click on whatever platform you want to stream on. In this guide we will take TWITCH
-   d) Next step depends on what network you want to use:
+   ii. After successful connection you should see a layout where you can control your GoPro. On the upper side you should see fields with "Live Stream", "View Media", "Auto Upload". Click on "Live Stream".
+   iii. Click on whatever platform you want to stream on. In this guide we will take TWITCH
+   iv. Next step depends on what network you want to use:
       i. Mobile Hotspot: Go to the settings of your phone and activate Mobile Hotspot (Android: Settings->Connections->Mobile Hotspot and     
          Tethering: activate Mobile Hotspot (you can configure it with your own password etc., not going into detail here)
       ii. select that network in the GoPro app. IF for some reason the connection will not come up just restart the app. Make sure you close
