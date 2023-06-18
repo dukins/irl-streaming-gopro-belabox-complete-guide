@@ -89,7 +89,6 @@ Alright, we have come a looong way now. Almost there to have a perfect set up. T
 
 
 ### INSTALLATION AND SETUP STEPS
-1. 
 2. Go to BELABOX.NET to download the BELABOX IMAGE. 2GB: https://download.belabox.net/belabox_jetson_nano_2gb-latest.img.zip | 4GB: https://download.belabox.net/belabox_jetson_nano_4gb-latest.img.zip
 3. Downlaod https://www.balena.io/etcher/ and flash your image on an SD-CARD: https://amzn.to/43MebNY 32GB are more than enough here!
    If you are not sure how to flash, watch the youtube video, rationalIRL describes it in detail on what to do or do a quick google search :)
