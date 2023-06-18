@@ -89,11 +89,11 @@ Alright, we have come a looong way now. Almost there to have a perfect set up. T
 
 
 ### INSTALLATION AND SETUP STEPS
-2. Go to BELABOX.NET to download the BELABOX IMAGE. 2GB: https://download.belabox.net/belabox_jetson_nano_2gb-latest.img.zip | 4GB: https://download.belabox.net/belabox_jetson_nano_4gb-latest.img.zip
-3. Downlaod https://www.balena.io/etcher/ and flash your image on an SD-CARD: https://amzn.to/43MebNY 32GB are more than enough here!
+1. Go to BELABOX.NET to download the BELABOX IMAGE. 2GB: https://download.belabox.net/belabox_jetson_nano_2gb-latest.img.zip | 4GB: https://download.belabox.net/belabox_jetson_nano_4gb-latest.img.zip
+2. Downlaod https://www.balena.io/etcher/ and flash your image on an SD-CARD: https://amzn.to/43MebNY 32GB are more than enough here!
    If you are not sure how to flash, watch the youtube video, rationalIRL describes it in detail on what to do or do a quick google search :)
-4. Insert the card into the NVIDIA Jetson Nano (on the backside)
-5. Now we will set up the SRTLA Relay Server on your local machine.
+3. Insert the card into the NVIDIA Jetson Nano (on the backside)
+4. Now we will set up the SRTLA Relay Server on your local machine.
    * NOTE: THIS IS DONE ON AN UBUNTU MACHINE! I would recommend setting up a dual boot machine that has Windows and Ubuntu on it. Or get a    
      dedicated PC that runs Ubuntu!
    * HUGE shoutout to Codexual for his guide to setup an SRT Server at home!
@@ -130,25 +130,25 @@ Alright, we have come a looong way now. Almost there to have a perfect set up. T
    * Now go to OBS create a scene and add Mediasource. Type in:
        ```srt://YOUR-PUBLIC-IP:SECOND-PORT/live/stream/YOUR_STREAM_KEY```
        * YOUR_STREAM_KEY is what you chose in the sls.conf (from the SRT SERVER SETUP VIDEO! Go watch it if you haven't!)
-6. Now we can go back to our Belabox: Connect it to a powersource, and connect the Belabox with an ethernet cable to your router  
-7. Login to your router to see what local IP your Belabox has (e.g. 192.168.XYZ.XYZ) 
-8. Type it in your browser, a login should appear where you will choose a new password
-9. You will now see a list of buttons (Start, Wifi (if you have a wifi stick connected), Ecoder Settings, etc.)
-10. Go to Encoder settings, here you can go with the first approach to just test if the Belabox can send a stream to your OBS or choose the 
+5. Now we can go back to our Belabox: Connect it to a powersource, and connect the Belabox with an ethernet cable to your router  
+6. Login to your router to see what local IP your Belabox has (e.g. 192.168.XYZ.XYZ) 
+7. Type it in your browser, a login should appear where you will choose a new password
+8. You will now see a list of buttons (Start, Wifi (if you have a wifi stick connected), Ecoder Settings, etc.)
+9. Go to Encoder settings, here you can go with the first approach to just test if the Belabox can send a stream to your OBS or choose the 
     second option to stream your GoPro feed to OBS
     * TEST PATTERN STREAM: jetson/h265_test_pattern
     * GOPRO FEED (WIRELESS OPTION):  jetson/rtmp_localhost_publish_live_50fps (or whatever fps you want to stream at)
-11. Go to SRTLA Settings
+10. Go to SRTLA Settings
     * SRTLA receiver address: YOUR-PUBLIC-IP
     * SRTLA receiver port: FIRST_PORT
     * SRT streamid: live/stream/YOUR_STREAM_KEY 
-12. Go back up and click "Start". If no error message appears e.g. "Failed to connect to the SRT server. Retrying..." or "Failed to connect to the SRTLA server. Retrying..." we are goot to go.
-13. Go to OBS to see your feed being displayed!
-14. To set up your phone as a mobile hotspot to stream:
+11. Go back up and click "Start". If no error message appears e.g. "Failed to connect to the SRT server. Retrying..." or "Failed to connect to the SRTLA server. Retrying..." we are goot to go.
+12. Go to OBS to see your feed being displayed!
+13. To set up your phone as a mobile hotspot to stream:
     * connect a Wifi stick to the Belabox
     * go to the UI page of the Belabox and click on Wifi: wlan0 -> choose your mobile hotspot
     * deselect eth0 and test the stream again, now all the data should go through your mobile connection
-15. To be able to stream outside you need to connect a mobile router (see under [List of equipment you need:](#section-5-2) )
+14. To be able to stream outside you need to connect a mobile router (see under [List of equipment you need:](#section-5-2) )
     * instead of your home router, connect your portable router to it.
     * To connect to your Belabox and start the stream, check the devices that are connected to your Mobile Hotspot on your phone
       * Settings->Connections->Mobile Hotspot and Tethering->Mobile Hotspot->Connected devices#
