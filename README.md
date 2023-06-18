@@ -12,19 +12,19 @@ I was also using an android phone (Samsung Galaxy S20+) with Android 13. For som
 1) Install GoPro Quik app on your phone. Optional: Login with your account created in step 0) (click on the "person icon" on the top left)
 2) Click on the "GoPro" icon on the bottom bar (there should be four icons: Mural, Media, Studio, GoPro)
 3) Connect your GoPro with your phone
-   i. on your GoPro: swipe down, swipe left, click on Preferences, Wireless Connections, Connect Device, GoPro Quick App
+   1. on your GoPro: swipe down, swipe left, click on Preferences, Wireless Connections, Connect Device, GoPro Quick App
       Follow the steps described.
-   ii. After successful connection you should see a layout where you can control your GoPro. On the upper side you should see fields with "Live Stream", "View Media", "Auto Upload". Click on "Live Stream".
-   iii. Click on whatever platform you want to stream on. In this guide we will take TWITCH
-   iv. Next step depends on what network you want to use:
-      i. Mobile Hotspot: Go to the settings of your phone and activate Mobile Hotspot (Android: Settings->Connections->Mobile Hotspot and     
+   2. After successful connection you should see a layout where you can control your GoPro. On the upper side you should see fields with "Live Stream", "View Media", "Auto Upload". Click on "Live Stream".
+   3. Click on whatever platform you want to stream on. In this guide we will take TWITCH
+   4. Next step depends on what network you want to use:
+      1. Mobile Hotspot: Go to the settings of your phone and activate Mobile Hotspot (Android: Settings->Connections->Mobile Hotspot and     
          Tethering: activate Mobile Hotspot (you can configure it with your own password etc., not going into detail here)
-      ii. select that network in the GoPro app. IF for some reason the connection will not come up just restart the app. Make sure you close
+      2. select that network in the GoPro app. IF for some reason the connection will not come up just restart the app. Make sure you close
           it also when it's active in the background!
-      iii. Choose a title for your stream. BEWARE that you can only use 150 characters for the title. The GoPro app will not show how many 
+      3. Choose a title for your stream. BEWARE that you can only use 150 characters for the title. The GoPro app will not show how many 
            characters you used for the title. I suggest you type it in a notepad on your phone before and save it. That way you can always                retrieve when your connection should break up and you have to restart your stream again! Trust me, this is going to happen A LOT! ;)
-      iv. choose resolution (depending on your network, Lens, if you want to save the VOD or not
-      v. click on continue when it is highlighted (after you have chosen your network and a title!)
-      vi. wait a little bit on the next screen, this can take a little bit (around 1-2 minutes max!), click on "Go Live".
-      vii. WELL DONE! You have successfully started your stream from the GoPro directly to twitch! :) But from here your actual journey begins!
+      4. choose resolution (depending on your network, Lens, if you want to save the VOD or not
+      5. click on continue when it is highlighted (after you have chosen your network and a title!)
+      6. wait a little bit on the next screen, this can take a little bit (around 1-2 minutes max!), click on "Go Live".
+      7. WELL DONE! You have successfully started your stream from the GoPro directly to twitch! :) But from here your actual journey begins!
    
