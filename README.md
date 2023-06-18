@@ -80,7 +80,7 @@ This part will describe on how you set up your local RTMP server and streaming f
 ## Streaming with the Belabox
 Alright, we are have come a looong way now. Almost there to have a perfect set up. To have more reliable stream you need something that can handle multiple carriers at the same time, so your bitrate does not drop during your streams even in the remote areas. And here we are going to use what is called "BELABOX". HUGE thanks to rationalIRL to create this project to be more affordable for new streamers! (The liveU costs a ton of money for the box alone without peripherals. You can go with it if you have the money).
 
-###<a name="section-5-2"></a> List of equipment you need:
+### <a name="section-5-2"></a> List of equipment you need:
 * NVIDIA Jetson Nano 2GB / or 4GB Version: 2GB: https://amzn.to/3NgMiGy | 4GB: https://amzn.to/3Pjt460
 * GoPro (Hero 11 Black): https://amzn.to/45EjmRp
 * Phone with the GoPro Quik App
