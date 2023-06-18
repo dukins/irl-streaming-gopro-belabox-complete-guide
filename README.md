@@ -82,9 +82,12 @@ Alright, we are have come a looong way now. Almost there to have a perfect set u
    * NOTE: THIS IS DONE ON AN UBUNTU MACHINE! I would recommend setting up a dual boot machine that has Windows and Ubuntu on it. Or get a    
      dedicated PC that runs Ubuntu!
    * go to https://github.com/Marlow925/srtla and clone the repository:
-   * open terminal and type: ´´´git clone https://github.com/Marlow925/srtla.git´´´
+   * open terminal and type: 
+     ´´´git clone https://github.com/Marlow925/srtla.git
+     ´´´
    * next type:
-   * ´´´cd srtla/´´´´
+     ´´´cd srtla/
+     ´´´
 7. Connect it to a powersource, connect the Belabox with an ethernet cable to your router  
 8. Login to your router to see what local IP your Belabox has (e.g. 192.168.XYZ.XYZ) 
 9. Type it in your browser, a login should appear where you will choose a new password
