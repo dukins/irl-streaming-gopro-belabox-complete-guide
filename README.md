@@ -95,8 +95,8 @@ Alright, we have come a looong way now. Almost there to have a perfect set up. T
    If you are not sure how to flash, watch the youtube video, rationalIRL describes it in detail on what to do or do a quick google search :)
 3. Insert the card into the NVIDIA Jetson Nano (on the backside)
 4. Now we will set up the SRTLA Relay Server on your local machine.
-   * NOTE: THIS IS DONE ON AN UBUNTU MACHINE! I would recommend setting up a dual boot machine that has Windows and Ubuntu on it. Or get a    
-     dedicated PC that runs Ubuntu!
+   * NOTE: THIS IS DONE ON AN UBUNTU MACHINE! I would recommend setting up a dual boot machine that has Windows and Ubuntu on it.
+     Or get a dedicated PC that runs Ubuntu!
    * HUGE shoutout to Codexual for his guide to setup an SRT Server at home!
      * watch this video to set up your SRT Server: https://www.youtube.com/watch?v=YhvRXWzRPm4 (it is lengthy so it would be too much for this
      guide). Do not forget to setup a service that the SRT server starts when you are starting your PC! It'll get annoying after a while 
