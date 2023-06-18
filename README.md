@@ -73,4 +73,20 @@ This part will describe on how you set up your local RTMP server and streaming f
 ## Streaming with the Belabox
 Alright, we are have come a looong way now. Almost there to have a perfect set up. To have more reliable stream you need something that can handle multiple carriers at the same time, so your bitrate does not drop during your streams even in the remote areas. And here we are going to use what is called "BELABOX". HUGE thanks to rationalIRL to create this project to be more affordable for new streamers! (The liveU costs a ton of money for the box alone without peripherals. You can go with it if you have the money).
 ### List of everything you need:
-1. abc
+1. NVIDIA Jetson Nano 2GB / or 4GB Version: 2GB: https://amzn.to/3NgMiGy | 4GB: https://amzn.to/3Pjt460
+2. Go to BELABOX.NET to download the BELABOX IMAGE. 2GB: https://download.belabox.net/belabox_jetson_nano_2gb-latest.img.zip | 4GB: https://download.belabox.net/belabox_jetson_nano_4gb-latest.img.zip
+3. Downlaod https://www.balena.io/etcher/ and flash your image on an SD-CARD: https://amzn.to/43MebNY 32GB are more than enough here!
+   If you are not sure how to flash, watch the youtube video, rationalIRL describes it in detail on what to do or do a quick google search :)
+4. Insert the card into the NVIDIA Jetson Nano (on the backside)
+5. Now we will set up the SRTLA Relay Server on your local machine.
+   * NOTE: THIS IS DONE ON AN UBUNTU MACHINE! I would recommend setting up a dual boot machine that has Windows and Ubuntu on it. Or get a    
+     dedicated PC that runs Ubuntu!
+   * go to https://github.com/Marlow925/srtla and clone the repository:
+   * open terminal and type: ´´´git clone https://github.com/Marlow925/srtla.git´´´
+   * next type:
+   * ´´´cd srtla/´´´´
+7. Connect it to a powersource, connect the Belabox with an ethernet cable to your router  
+8. Login to your router to see what local IP your Belabox has (e.g. 192.168.XYZ.XYZ) 
+9. Type it in your browser, a login should appear where you will choose a new password
+10. You will now see a list of buttons (Start, Wifi (if you have a wifi stick connected), Ecoder Settings, etc.)
+11. Go to Encoder settings 
