@@ -85,7 +85,8 @@ Alright, we have come a looong way now. Almost there to have a perfect set up. T
 * GoPro (Hero 11 Black): https://amzn.to/45EjmRp
 * Phone with the GoPro Quik App
 * Mobile router (GL.iNet GL-MT300N-V2): https://amzn.to/42QZY0K
-* Powerbanks: https://amzn.to/3IS0hkG (VARTA) | https://amzn.to/3qTvJsG (ANSMANN) | Powerbank for your phone also
+* Powerbanks: https://amzn.to/3IS0hkG (VARTA) | https://amzn.to/3qTvJsG (ANSMANN) | Powerbank for your phone
+* Cocoon Grid-IT to organize everything: https://amzn.to/3qK2k49 (I can show you how I organized my setup to get the most out of it)
 
 
 ### INSTALLATION AND SETUP STEPS
