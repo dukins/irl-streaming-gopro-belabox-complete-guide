@@ -34,7 +34,7 @@ So if you want a more reliable stream, go ahead and read section 2! Here you wil
 
 ## 2. Creating your own RTMP server on your Home PC
 This part will describe on how you set up your local RTMP server and streaming from the GoPro directly to that server! Also I will describe how you set up your OBS so you can stream that feed to twitch. As I said in section 1, this is a more reliable approach, since the stream will not end when your mobile connection drops.
-NOTE: This part is done on WINDOWS 11! (Section 3 will show how to get the SRTLA relay server going on Ubuntu 22!) 
+* NOTE: This part is done on WINDOWS 11! (Section 3 will show how to get the SRTLA relay server going on Ubuntu 22!) 
 
 1. Download the Monaserver files here: https://www.toolsforgopro.com/dl/monaserver.zip
 2. Open the Monaserver.ini file and scroll down to [RTMP]
