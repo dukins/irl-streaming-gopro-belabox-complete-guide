@@ -86,6 +86,14 @@ Alright, we are have come a looong way now. Almost there to have a perfect set u
      ```git clone https://github.com/Marlow925/srtla.git```
    * next type:
      ```cd srtla/```
+   * in the folder there are some files, we only care about one here: srtla_rec
+   * to start the srtla relay server type in the following ```srtla_rec FIRST_PORT YOUR-PUBLIC-IP SECOND-PORT```
+     You can choose your ports whatever you want, just make sure you have enabled them in your router! Also check on your ubuntu machine if 
+     they are enabled with:
+     ```sudo ufw status```
+     If your ports are in the list you are good to go. If not, execute the following:
+     ```sudo ufw allow YOUR-PORT/tcp```
+     Do the same with "udp" instead of "tcp"
 7. Connect it to a powersource, connect the Belabox with an ethernet cable to your router  
 8. Login to your router to see what local IP your Belabox has (e.g. 192.168.XYZ.XYZ) 
 9. Type it in your browser, a login should appear where you will choose a new password
