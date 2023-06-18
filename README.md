@@ -6,6 +6,7 @@ This is a How-To for the IRL streaming setup with a GoPro(Hero 11 Black) (and th
 
 During the writing of this guide I was using the GoPro Quick app version: 11.18.1(15524)!
 I was also using an android phone (Samsung Galaxy S20+) with Android 13. For some steps you will have to look up on how to do them on Iphone (sorry about that!)
+FOR TROUBLESHOOTING: Join my Discord Server and post your questions in the "tech-stuff" or "troubleshooting-gopro-setup" channels!
 
 ## 1. Streaming from the GoPro to twitch.tv
 0) OPTIONAL: Create a GoPro account (gopro.com). This just helps, so you do not have to click "Continue as guest" every time you open the app. Trust me, it WILL get annoying at some point.
@@ -42,6 +43,11 @@ NOTE: This part is done on WINDOWS 11! (Section 3 will show how to get the SRTLA
 5. Choose same publicPort
 6. write your WAN IP in publicHost (search whatismyip on google)
 7. Save the file and close it
-8. In the Monaserver folder, go into the "www/live" folder (if live does not exist, create it), create a folder with your STREAM-KEY (needed later for the address stream with the gopro
-   -> it should look like this now: Monaserver/www/live/YOURSTREAMKEY
-9. 
+8. In the Monaserver folder, go into the "www/live" folder (if live does not exist, create it), create a folder with your STREAM-KEY (needed later for the address stream with the gopro); STREAM-KEY can be anything you want, e.g. goprostreamabc123
+   -> it should look like this now: Monaserver/www/live/STREAM-KEY
+9. NOW THIS IS IMPORTANT: Login to your router and enable the port you chose before: e.g. 1935! Tons of guides on how it is done on the internet, will depend on what router you use!
+10. ALSO IMPROTANT: Donnload this application called Restart-on-Crash: https://www.majorgeeks.com/files/details/restart_oncrash.html
+    This is a VERY handy tool for your RTMP server to be rebooted in case it crashed (happened to me!)
+    There is a youtube video on how to set it up -> https://www.youtube.com/watch?v=cW9MFgNRvkk
+    I have configured it the way that when I open that application it starts Monaserver.exe!
+11. 
