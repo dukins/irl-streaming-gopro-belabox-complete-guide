@@ -83,6 +83,9 @@ Alright, we are have come a looong way now. Almost there to have a perfect set u
 * NVIDIA Jetson Nano 2GB / or 4GB Version: 2GB: https://amzn.to/3NgMiGy | 4GB: https://amzn.to/3Pjt460
 * GoPro (Hero 11 Black): https://amzn.to/45EjmRp
 * Phone with the GoPro Quik App
+* Mobile router (GL.iNet GL-MT300N-V2): https://amzn.to/42QZY0K
+* Powerbanks: https://amzn.to/3IS0hkG (VARTA) | https://amzn.to/3qTvJsG (ANSMANN) | Powerbank for your phone also
+* 
 
 ### INSTALLATION AND SETUP STEPS
 1. 
@@ -141,6 +144,11 @@ Alright, we are have come a looong way now. Almost there to have a perfect set u
     * SRT streamid: live/stream/YOUR_STREAM_KEY 
 12. Go back up and click "Start". If no error message appears e.g. "Failed to connect to the SRT server. Retrying..." or "Failed to connect to the SRTLA server. Retrying..." we are goot to go.
 13. Go to OBS to see your feed being displayed!
+14. To set up your phone as a mobile hotspot to stream:
+    * connect a Wifi stick to the Belabox
+    * go to the UI page of the Belabox and click on Wifi: wlan0 -> choose your mobile hotspot
+    * deselect eth0 and test the stream again, now all the data should go through your mobile connection
+15. To be ab
 
 YOU DID IT! NOW you can call yourself a professional streamer! :D
 Let your awesome journey without interruptions begin! Good luck out there!
