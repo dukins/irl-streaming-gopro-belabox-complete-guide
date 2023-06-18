@@ -26,5 +26,6 @@ I was also using an android phone (Samsung Galaxy S20+) with Android 13. For som
       4. choose resolution (depending on your network, Lens, if you want to save the VOD or not
       5. click on continue when it is highlighted (after you have chosen your network and a title!)
       6. wait a little bit on the next screen, this can take a little bit (around 1-2 minutes max!), click on "Go Live".
-      7. WELL DONE! You have successfully started your stream from the GoPro directly to twitch! :) But from here your actual journey begins!
+
+WELL DONE! You have successfully started your stream from the GoPro directly to twitch! :) But from here your actual journey begins!
    
