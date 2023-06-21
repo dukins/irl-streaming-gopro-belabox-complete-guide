@@ -32,9 +32,9 @@ You can also check out my twitch stream and we can have a live talk there!
           it also when it's active in the background!
       3. Choose a title for your stream. BEWARE that you can only use 150 characters for the title. The GoPro app will not show how many 
            characters you used for the title. I suggest you type it in a notepad on your phone before and save it. That way you can always                retrieve when your connection should break up and you have to restart your stream again! Trust me, this is going to happen A LOT! ;)
-      4. choose resolution (depending on your network, Lens, if you want to save the VOD or not
+      4. choose resolution (depending on your network), Lens setting and check whether or not you want to save the VOD
       5. click on continue when it is highlighted (after you have chosen your network and a title!)
-      6. wait a little bit on the next screen, this can take a little bit (around 1-2 minutes max!), click on "Go Live".
+      6. wait a moment on the next screen, this can take a bit (around 1-2 minutes max!), click on "Go Live".
 
 WELL DONE! You have successfully started your stream from the GoPro directly to twitch! :) But from here your actual journey begins!
 I do not recommend using this approach as your main go-to for streaming, since you will have a lot of disconnections and your stream will just stop. You will end up with a lot of cut VOD (10 second VOD, 32 seconds, 2 hours...) It will always depend on the mobile network how your stream will go!
