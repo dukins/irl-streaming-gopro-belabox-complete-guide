@@ -93,7 +93,7 @@ https://github.com/BELABOX/tutorial/wiki/Peripherals,-accessories-and-power-bank
 * Cocoon Grid-IT to organize everything: https://amzn.to/3qK2k49 (I can show you how I organized my setup to get the most out of it)
 * Usb-C to Usb-C cable (90cm/ 3ft) - for GoPro | Usb-C to Usb-C (20-30cm/1ft) - for Belabox (Jetson Nano) | regular Usb-C to Usb-A cable - for phone | Micro-Usb - for mobile router 
 * Waveshare Acrylic Case - for Belabox (Jetson Nano)
-* 40x20mm 4 PIN cooler
+* 40x20mm 4 PIN cooler  
   Waveshare cooler: https://amzn.to/4497tkL or Noctua cooler https://amzn.to/3CGoh7c 
 
 
