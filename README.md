@@ -96,7 +96,8 @@ https://github.com/BELABOX/tutorial/wiki/Peripherals,-accessories-and-power-bank
 ### INSTALLATION AND SETUP STEPS
 1. Go to https://BELABOX.NET to download the BELABOX IMAGE. 2GB: https://download.belabox.net/belabox_jetson_nano_2gb-latest.img.zip | 4GB: https://download.belabox.net/belabox_jetson_nano_4gb-latest.img.zip
 2. Download https://www.balena.io/etcher/ and flash your image on an SD-CARD (32GB are more than enough here!)  
-   If you are not sure how to flash, watch the youtube video, rationalIRL describes it in detail on what to do or do a quick google search :)    Timestamp here: https://www.youtube.com/watch?v=YuH_B48nz1M&t=444s  
+   If you are not sure how to flash, watch the youtube video, rationalIRL describes it in detail on what to do or do a quick google search :) 
+ Timestamp here: https://www.youtube.com/watch?v=YuH_B48nz1M&t=444s  
 3. Insert the card into the NVIDIA Jetson Nano (on the backside)
 4. Now we will set up the SRTLA Relay Server on your local machine.
    * NOTE: THIS IS DONE ON AN UBUNTU MACHINE! I would recommend setting up a dual boot machine that has Windows and Ubuntu on it.
