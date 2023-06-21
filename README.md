@@ -96,15 +96,15 @@ https://github.com/BELABOX/tutorial/wiki/Peripherals,-accessories-and-power-bank
 ### INSTALLATION AND SETUP STEPS
 1. Go to https://BELABOX.NET to download the BELABOX IMAGE. 2GB: https://download.belabox.net/belabox_jetson_nano_2gb-latest.img.zip | 4GB: https://download.belabox.net/belabox_jetson_nano_4gb-latest.img.zip
 2. Download https://www.balena.io/etcher/ and flash your image on an SD-CARD (32GB are more than enough here!)  
-   If you are not sure how to flash, watch the youtube video, rationalIRL describes it in detail on what to do or do a quick google search :) 
- Timestamp here: https://www.youtube.com/watch?v=YuH_B48nz1M&t=444s  
+   If you are not sure how to flash, watch the youtube video, rationalIRL describes it in detail on what to do or do a quick google search :)  
+   rationalIRLs video with timestamp: https://www.youtube.com/watch?v=YuH_B48nz1M&t=444s  
 3. Insert the card into the NVIDIA Jetson Nano (on the backside)
 4. Now we will set up the SRTLA Relay Server on your local machine.
    * NOTE: THIS IS DONE ON AN UBUNTU MACHINE! I would recommend setting up a dual boot machine that has Windows and Ubuntu on it.
      Or get a dedicated PC that runs Ubuntu!
    * HUGE shoutout to Codexual for his guide to setup an SRT Server at home!
-     * watch this video to set up your SRT Server: https://www.youtube.com/watch?v=YhvRXWzRPm4 (it is lengthy so it would be too much for this
-     guide). Do not forget to setup a service that the SRT server starts when you are starting your PC! It'll get annoying after a while 
+     * watch his video to set up your SRT Server: https://www.youtube.com/watch?v=YhvRXWzRPm4 (it is lengthy so it would be too much for this
+     guide to add all the steps). Do not forget to setup a service that the SRT server starts when you are starting your PC! It'll get annoying after a while otherwise and you might forget running one part
      otherwise.
    * when done start the SRT server
    * go to https://github.com/Marlow925/srtla and clone the repository:
@@ -123,8 +123,8 @@ https://github.com/BELABOX/tutorial/wiki/Peripherals,-accessories-and-power-bank
          * Do the same with "udp" instead of "tcp"
          * At this point I assume you have OBS installed on your machine. Check the Websocket settings in OBS for the used port. Enable that 
            port as well!
-   * To make things easier create a alias/ shortcut in the bashrc file that will do these steps for you. Or create a service like before that 
-     will start the SRTLA Relay Server.
+   * To make things easier create either a service for the SRTLA relay like above or an alias/ shortcut in the bashrc file that will do these steps for you.
+
      * for the bashrc approach do the following:
        * ```sudo nano ~/.bashrc```
        * scroll to the bottom and type in:
