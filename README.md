@@ -6,7 +6,8 @@ This is a How-To for the IRL streaming setup with a GoPro(Hero 11 Black) (and th
 
 During the writing of this guide I was using the GoPro Quick app version: 11.18.1(15524)!
 I was also using an android phone (Samsung Galaxy S20+) with Android 13. For some steps you will have to look up on how to do them on Iphone (sorry about that!)
-
+Visit the Belabox repository to see what devices work with the Belabox!
+https://github.com/BELABOX/tutorial/wiki/Peripherals,-accessories-and-power-banks
 
 
 ## Troubleshooting
@@ -80,12 +81,15 @@ This part will describe on how you set up your local RTMP server and streaming f
 ## 3. Streaming with the Belabox
 Alright, we have come a looong way now. Almost there to have a perfect set up. To have more reliable stream you need something that can handle multiple carriers at the same time, so your bitrate does not drop during your streams even in the remote areas. And here we are going to use what is called "BELABOX". HUGE thanks to rationalIRL to create this project to be more affordable for new streamers! (The liveU costs a ton of money for the box alone without peripherals. You can go with it if you have the money).
 
-### <a name="section-5-2"></a> List of equipment you need:
+### <a name="section-5-2"></a> List of equipment I use:
+Visit the Belabox repository to see what devices work with the Belabox!
+https://github.com/BELABOX/tutorial/wiki/Peripherals,-accessories-and-power-banks
+
 * NVIDIA Jetson Nano 2GB / or 4GB Version: 2GB: https://amzn.to/3NgMiGy | 4GB: https://amzn.to/3Pjt460
 * GoPro (Hero 11 Black): https://amzn.to/45EjmRp
 * Phone with the GoPro Quik App
 * Mobile router (GL.iNet GL-MT300N-V2): https://amzn.to/42QZY0K
-* Powerbanks: https://amzn.to/3IS0hkG (VARTA) | https://amzn.to/3qTvJsG (ANSMANN) | Powerbank for your phone
+* Powerbanks: https://amzn.to/3IS0hkG (VARTA) - for the GoPro | https://amzn.to/3qTvJsG (ANSMANN) - for the Belabox| Powerbank for your phone
 * Cocoon Grid-IT to organize everything: https://amzn.to/3qK2k49 (I can show you how I organized my setup to get the most out of it)
 
 
