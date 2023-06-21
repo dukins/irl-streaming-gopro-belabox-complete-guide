@@ -92,7 +92,7 @@ https://github.com/BELABOX/tutorial/wiki/Peripherals,-accessories-and-power-bank
 * Powerbanks: https://amzn.to/3IS0hkG (VARTA) - for the GoPro | https://amzn.to/3qTvJsG (ANSMANN) - for the Belabox (Jetson Nano) | Powerbank for your phone | a powerbank that outputs 5V/2A - for the Mobile Router (a 20 Ah battery should last around 7 to 8 hours) 
 * Cocoon Grid-IT to organize everything: https://amzn.to/3qK2k49 (I can show you how I organized my setup to get the most out of it)
 * Usb-C to Usb-C cable (90cm/ 3ft) - for GoPro | Usb-C to Usb-C (20-30cm/1ft) - for Belabox (Jetson Nano) | regular Usb-C to Usb-A cable - for phone | Micro-Usb - for mobile router 
-* Waveshare Acrylic Case - for Belabox (Jetson Nano)
+* Waveshare Acrylic Case - for Belabox (Jetson Nano): https://amzn.to/3NEMdOk
 * 40x20mm 4 PIN cooler  
   Waveshare cooler: https://amzn.to/4497tkL or Noctua cooler https://amzn.to/3CGoh7c 
 
