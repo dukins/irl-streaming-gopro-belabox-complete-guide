@@ -5,9 +5,9 @@ This is a How-To for the IRL streaming setup with a GoPro(Hero 11 Black) (and th
 3) How to stream with the belabox.
 
 During the writing of this guide I was using the GoPro Quick app version: 11.18.1(15524)!
-I was also using an android phone (Samsung Galaxy S20+) with Android 13. For some steps you will have to look up on how to do them on Iphone (sorry about that!)
-Visit the Belabox repository to see what devices work with the Belabox!
-https://github.com/BELABOX/tutorial/wiki/Peripherals,-accessories-and-power-banks
+I was also using an android phone (Samsung Galaxy S20+) with Android 13. For some steps you will have to look up on how to do them on Iphone (sorry about that!)  
+Visit the Belabox repository to see what devices work with the Belabox!  
+https://github.com/BELABOX/tutorial/wiki/Peripherals,-accessories-and-power-banks  
 
 
 ## Troubleshooting
