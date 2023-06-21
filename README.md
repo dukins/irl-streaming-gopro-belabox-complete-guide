@@ -8,7 +8,8 @@ During the writing of this guide I was using the GoPro Quick app version: 11.18.
 I was also using an android phone (Samsung Galaxy S20+) with Android 13. For some steps you will have to look up on how to do them on Iphone (sorry about that!)  
 Visit the Belabox repository to see what devices work with the Belabox!  
 https://github.com/BELABOX/tutorial/wiki/Peripherals,-accessories-and-power-banks  
-
+Huge shoutout to rationalIRL for creating the Belabox project! It makes streaming so much more affordable and  enjoyable!
+Also shoutout to Codexual for creating a HowTo to setup a self-hosted SRT Server.
 
 ## Troubleshooting
 Join my Discord Server and post your questions in the "tech-stuff" or "troubleshooting-gopro-setup" channels!
@@ -46,20 +47,19 @@ This part will describe on how you set up your local RTMP server and streaming f
 
 1. Download the Monaserver files here: https://www.toolsforgopro.com/dl/monaserver.zip
 2. Open the Monaserver.ini file and scroll down to [RTMP]
-3. Change host to your local IP (ipconfig->ipv4 address) Lots of guides for this on the internet
+3. Change host to your local IP (open Terminal and type in ipconfig->search for the ipv4 address) 
 4. Choose a port e.g. 1935
 5. Choose same publicPort
 6. write your WAN IP in publicHost (search whatismyip on google)
 7. Save the file and close it
-8. In the Monaserver folder, go into the "www/live" folder (if live does not exist, create it), create a folder with your STREAM-KEY (needed later for the address stream with the gopro); STREAM-KEY can be anything you want, e.g. goprostreamabc123
+8. In the Monaserver folder, go into the "www/live" folder (if live does not exist, create it), create a folder with your STREAM-KEY (needed later for the address stream with the gopro); STREAM-KEY can be anything you want, e.g. goprostreamabc123  
    -> your folder structure should now look like this: Monaserver/www/live/STREAM-KEY
 9. NOW THIS IS IMPORTANT: Login to your router and enable the port you chose before: e.g. 1935! Tons of guides on how it is done on the internet, will depend on what router you use!
-10. ALSO IMPROTANT: Download this application called Restart-on-Crash: https://www.majorgeeks.com/files/details/restart_oncrash.html
-    * This is a VERY handy tool for your RTMP server to be rebooted in case it crashed (happened to me!)
+10. ALSO IMPROTANT: Download this application called RestartOnCrash: https://www.majorgeeks.com/files/details/restart_oncrash.html
+    * This is a VERY handy tool for Monaserver to be rebooted in case it crashed (happened to me a couple times)
     * There is a youtube video on how to set it up -> https://www.youtube.com/watch?v=cW9MFgNRvkk
     * I have configured it the way that when I open that application it starts Monaserver.exe!
     * You can also use it without, but I would not recommend! (trust me :))
-
 11. Connect your phone to the GoPro as describe in section 1! At this point you should know how to do it ;)
 12. Click on Live Stream->Other/RTMP; as before select a network you want to use to send your stream from
 13. THIS IS THE IMPORTANT PART:
@@ -82,21 +82,21 @@ This part will describe on how you set up your local RTMP server and streaming f
 Alright, we have come a looong way now. Almost there to have a perfect set up. To have more reliable stream you need something that can handle multiple carriers at the same time, so your bitrate does not drop during your streams even in the remote areas. And here we are going to use what is called "BELABOX". HUGE thanks to rationalIRL to create this project to be more affordable for new streamers! (The liveU costs a ton of money for the box alone without peripherals. You can go with it if you have the money).
 
 ### <a name="section-5-2"></a> List of equipment I use:
-Visit the Belabox repository to see what devices work with the Belabox!
+Visit https://betlabox.net and the Belabox repository to see what devices officially work with the Belabox!
 https://github.com/BELABOX/tutorial/wiki/Peripherals,-accessories-and-power-banks
 
 * NVIDIA Jetson Nano 2GB / or 4GB Version: 2GB: https://amzn.to/3NgMiGy | 4GB: https://amzn.to/3Pjt460
 * GoPro (Hero 11 Black): https://amzn.to/45EjmRp
 * Phone with the GoPro Quik App
 * Mobile router (GL.iNet GL-MT300N-V2): https://amzn.to/42QZY0K
-* Powerbanks: https://amzn.to/3IS0hkG (VARTA) - for the GoPro | https://amzn.to/3qTvJsG (ANSMANN) - for the Belabox| Powerbank for your phone
+* Powerbanks: https://amzn.to/3IS0hkG (VARTA) - for the GoPro | https://amzn.to/3qTvJsG (ANSMANN) - for the Belabox| Powerbank for your phone | a powerbank that outputs 5V/2A - for the Mobile Router (a 20 Ah battery should last around 7 to 8 hours) 
 * Cocoon Grid-IT to organize everything: https://amzn.to/3qK2k49 (I can show you how I organized my setup to get the most out of it)
 
 
 ### INSTALLATION AND SETUP STEPS
-1. Go to BELABOX.NET to download the BELABOX IMAGE. 2GB: https://download.belabox.net/belabox_jetson_nano_2gb-latest.img.zip | 4GB: https://download.belabox.net/belabox_jetson_nano_4gb-latest.img.zip
-2. Downlaod https://www.balena.io/etcher/ and flash your image on an SD-CARD: https://amzn.to/43MebNY 32GB are more than enough here!
-   If you are not sure how to flash, watch the youtube video, rationalIRL describes it in detail on what to do or do a quick google search :)
+1. Go to https://BELABOX.NET to download the BELABOX IMAGE. 2GB: https://download.belabox.net/belabox_jetson_nano_2gb-latest.img.zip | 4GB: https://download.belabox.net/belabox_jetson_nano_4gb-latest.img.zip
+2. Download https://www.balena.io/etcher/ and flash your image on an SD-CARD (32GB are more than enough here!)  
+   If you are not sure how to flash, watch the youtube video, rationalIRL describes it in detail on what to do or do a quick google search :)    Timestamp here: https://www.youtube.com/watch?v=YuH_B48nz1M&t=444s  
 3. Insert the card into the NVIDIA Jetson Nano (on the backside)
 4. Now we will set up the SRTLA Relay Server on your local machine.
    * NOTE: THIS IS DONE ON AN UBUNTU MACHINE! I would recommend setting up a dual boot machine that has Windows and Ubuntu on it.
