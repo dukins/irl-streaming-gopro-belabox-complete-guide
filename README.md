@@ -1,4 +1,4 @@
-# ULTIMIATE-GUIDE-IRL-STREAM-BELABOX-GOPRO
+# Guide to stream IRL content with a GoPro (using a Belabox)
 This is a How-To for the IRL streaming setup with a GoPro(Hero 11 Black) (and the belabox). I found it really difficult to get all the information needed to set up a stream using a GoPro. There were SO many sites I had to visit to make it work. This guide shall help you overcome these hurdles to make life easier for upcoming streamers! The coming sections describe a setp-by-step guide, starting from a simple setup with only a GoPro and your phone. The next sections will require more equipment to make streaming work more seamlessly!
 1) How to stream from the GoPro to twitch using mobile phone. 
 2) How to setup RTMP server at home and stream using OBS.
