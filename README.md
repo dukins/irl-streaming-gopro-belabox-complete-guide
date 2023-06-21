@@ -40,7 +40,7 @@ WELL DONE! You have successfully started your stream from the GoPro directly to 
 I do not recommend using this approach as your main go-to for streaming, since you will have a lot of disconnections and your stream will just stop. You will end up with a lot of cut VOD (10 second VOD, 32 seconds, 2 hours...) It will always depend on the mobile network how your stream will go!
 So if you want a more reliable stream, go ahead and read section 2! Here you will not end up losing your viewers due to disconnects! :)
 
-## 2. Creating your own RTMP server on your Home PC
+## 2. Starting up your own RTMP server on your Home PC
 This part will describe on how you set up your local RTMP server and streaming from the GoPro directly to that server! Also I will describe how you set up your OBS so you can stream that feed to twitch. As I said in section 1, this is a more reliable approach, since the stream will not end when your mobile connection drops.
 * NOTE: This part is done on WINDOWS 11! (Section 3 will show how to get the SRTLA relay server going on Ubuntu 22!) 
 
