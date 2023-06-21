@@ -164,6 +164,7 @@ https://github.com/BELABOX/tutorial/wiki/Peripherals,-accessories-and-power-bank
       * Settings->Connections->Mobile Hotspot and Tethering->Mobile Hotspot->Connected devices#
     * Open the browser on your phone and type in the IP of "belabox". You should be able to connect to it like on your PC.
     * DONE!
+15. Part with automatic scene switching coming soon. The approach in Codexuals video using noalbs did not work for me. I have to look for a different option (Loopy SRT Monitor).
 
 *YOU DID IT!* **NOW** you can call yourself a professional streamer! :D
 Let your awesome journey without interruptions begin! Good luck out there buddy!
