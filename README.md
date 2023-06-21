@@ -89,7 +89,7 @@ https://github.com/BELABOX/tutorial/wiki/Peripherals,-accessories-and-power-bank
 * GoPro (Hero 11 Black): https://amzn.to/45EjmRp
 * Phone with the GoPro Quik App
 * Mobile router (GL.iNet GL-MT300N-V2): https://amzn.to/42QZY0K
-* Powerbanks: https://amzn.to/3IS0hkG (VARTA) - for the GoPro | https://amzn.to/3qTvJsG (ANSMANN) - for the Belabox| Powerbank for your phone | a powerbank that outputs 5V/2A - for the Mobile Router (a 20 Ah battery should last around 7 to 8 hours) 
+* Powerbanks: https://amzn.to/3IS0hkG (VARTA) - for the GoPro | https://amzn.to/3qTvJsG (ANSMANN) - for the Belabox | Powerbank for your phone | a powerbank that outputs 5V/2A - for the Mobile Router (a 20 Ah battery should last around 7 to 8 hours) 
 * Cocoon Grid-IT to organize everything: https://amzn.to/3qK2k49 (I can show you how I organized my setup to get the most out of it)
 
 
