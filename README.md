@@ -126,7 +126,7 @@ https://github.com/BELABOX/tutorial/wiki/Peripherals,-accessories-and-power-bank
          * Do the same with "udp" instead of "tcp"
          * At this point I assume you have OBS installed on your machine. Check the Websocket settings in OBS for the used port. Enable that 
            port as well!
-   * To make things easier create either a service for the SRTLA relay like above or an alias/ shortcut in the bashrc file that will do these steps for you.
+   * To make things easier create either a service for the SRTLA relay, like Codexual described it in his video, or an alias/ shortcut in the bashrc file that will do these steps for you.
 
      * for the bashrc approach do the following:
        * ```sudo nano ~/.bashrc```
