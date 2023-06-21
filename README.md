@@ -27,8 +27,7 @@ You can also check out my twitch stream and we can have a live talk there!
    2. After successful connection you should see a layout where you can control your GoPro. On the upper side you should see fields with "Live Stream", "View Media", "Auto Upload". Click on "Live Stream".
    3. Click on whatever platform you want to stream on. In this guide we will take TWITCH
    4. Next step depends on what network you want to use:
-      1. Mobile Hotspot: Go to the settings of your phone and activate Mobile Hotspot (Android: Settings->Connections->Mobile Hotspot and     
-         Tethering: activate Mobile Hotspot (you can configure it with your own password etc., not going into detail here)
+      1. Mobile Hotspot: Go to the settings of your phone and activate Mobile Hotspot (Android: Settings->Connections->Mobile Hotspot and              Tethering: activate Mobile Hotspot (you can configure it with your own password etc., not going into detail here)
       2. select that network in the GoPro app. IF for some reason the connection will not come up just restart the app. Make sure you close
           it also when it's active in the background!
       3. Choose a title for your stream. BEWARE that you can only use 150 characters for the title. The GoPro app will not show how many 
