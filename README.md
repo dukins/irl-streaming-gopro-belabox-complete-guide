@@ -114,7 +114,7 @@ https://github.com/BELABOX/tutorial/wiki/Peripherals,-accessories-and-power-bank
    * open terminal and type: 
      ```git clone https://github.com/Marlow925/srtla.git```
    * next type:
-     ```cd srtla/```
+     ```cd srtla/``` and ```make```
    * in the folder there are some files, we only care about one here: srtla_rec
    * to start the srtla relay server type in the following:
      * ```./srtla_rec FIRST_PORT YOUR-PUBLIC-IP SECOND-PORT```
