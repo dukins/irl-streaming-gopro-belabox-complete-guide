@@ -14,7 +14,7 @@ Also shoutout to Codexual for creating a HowTo to setup a self-hosted SRT Server
 ## Troubleshooting
 Join my Discord Server and post your questions in the "tech-stuff" or "troubleshooting-gopro-setup" channels!
 ### **https://discord.gg/YkaxvfRaBA**
-You can also check out my twitch stream and we can have a live talk there!
+You can also check out my streams and we can have a live talk there! (I will most likely be on kick.com!)
 ### **https://kick.com/twiqs | https://twitch.tv/twiqsp**
 
 ## 1. Streaming from the GoPro to twitch.tv
