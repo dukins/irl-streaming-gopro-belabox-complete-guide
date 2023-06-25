@@ -13,7 +13,7 @@ Also shoutout to Codexual for creating a HowTo to setup a self-hosted SRT Server
 **ALSO BEWARE: The uploaded files are NOT MINE. They are from the BELABOX repo!** I just have them here to have a backup!
 ## Troubleshooting
 Join my Discord Server and post your questions in the "tech-stuff" or "troubleshooting-gopro-setup" channels!
-### **https://discord.gg/fDD9hyxv**
+### **https://discord.gg/YkaxvfRaBA**
 You can also check out my twitch stream and we can have a live talk there!
 ### **https://twitch.tv/twiqsp**
 
